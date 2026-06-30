@@ -1,0 +1,16 @@
+[project]
+name = "fuji-hdr-extractor"
+version = "1.0.0"
+description = "Unpack Fujifilm HDR RAF files into separate exposure steps"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+  "customtkinter>=5.2.2",
+  "pillow>=10.0.0",
+]
+
+[dependency-groups]
+dev = [
+  "pyinstaller>=6.0.0",
+]
